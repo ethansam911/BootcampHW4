@@ -40,3 +40,15 @@ document.getElementById("login_form").addEventListener("submit", function(event)
 
     event.preventDefault();
 });
+
+/*
+	#6 SPHERE
+	#6 SPHERE
+	#6 SPHERE
+*/
+document.getElementById("sphere").addEventListener("submit", function(event) {
+	var radius = parseFloat(document.getElementById("radius").value);
+	console.log(radius);
+	document.getElementById("volume").innerHTML = (4/3) * Math.PI * (radius ** 3);
+	event.preventDefault();
+});
