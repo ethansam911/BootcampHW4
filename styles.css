@@ -2,5 +2,11 @@
 {
     font-size: 72px;
     color: brown;
-    
+
+}
+
+.Form
+{
+    border: 1px solid black;
+    text-align: center;
 }

@@ -24,5 +24,19 @@ rightBtn.addEventListener("click", function() {
 	#2 HOVER OVER BIG THING
 */
 document.getElementById("big").addEventListener("mouseover", function() {
-	//alert("Hey, I told you not to hover over me!");
+    //alert("Hey, I told you not to hover over me!");
+});
+
+document.getElementById("login_form").addEventListener("submit", function(event)
+{
+    if(document.getElementsByName("psw")[0].value=="12345678")
+    {
+        document.getElementsByTagName("h1")[2].innerHTML="Great Job!";
+    }
+    else
+    {
+        alert("Incorrect Password");
+    }
+
+    event.preventDefault();
 });
