@@ -17,3 +17,12 @@ rightBtn.addEventListener("click", function() {
 	rightText.innerHTML = "<b>NO, I'm right!</b>";
 	leftText.innerHTML = "";
 });
+
+/*
+	#2 HOVER OVER BIG THING
+	#2 HOVER OVER BIG THING
+	#2 HOVER OVER BIG THING
+*/
+document.getElementById("big").addEventListener("mouseover", function() {
+	//alert("Hey, I told you not to hover over me!");
+});
